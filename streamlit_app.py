@@ -1,8 +1,6 @@
 import streamlit as st
 
 st.title("HISTIDINA👩🏻‍🔬")
-
-    st.header("Información básica sobre la Histidina")
     st.write("""La histidina (His, H) es un aminoácido que se utiliza para la síntesis de proteínas. Es una molécula hidrofílica, por lo que generalmente está orientada hacia la parte externa de las estructuras proteicas cuando estas se encuentran en un medio líquido.""")
     st.image("https://th.bing.com/th/id/OIP.a1VjRkDwAYHh2KAOjC9NEQHaFj?w=226&h=180&c=7&r=0&o=5&pid=1.7")
     st.write("""La histidina cumple funciones fisiológicas muy importantes en el ser humano, como formar parte de los centros activos de muchas enzimas, participar en el crecimiento, en el sistema inmunitario y en la formación de la mielina en las fibras nerviosas, entre otras.""")
@@ -12,8 +10,6 @@ Muchos alimentos son ricos en histidina, como las proteínas animales (carne y p
 
 El déficit o el exceso de histidina ocasionado por problemas hereditarios metabólicos o de transporte, o la falla dietética en la ingesta, se relacionan con algunos problemas importantes que afectan la salud en niños y en adultos. El consumo suficiente de histidina permite mantener una vida sana y saludable en la mayor parte de los casos.""")
     st.image("""https://draxe.com/wp-content/uploads/2019/06/histidine-header-768x350.jpg""")
-
-   st.header("Funciones biologicas de la Histidina")
    st.write("""La histidina cumple varias funciones biológicas esenciales en el cuerpo humano debido a su estructura química única, que incluye un anillo imidazol capaz de participar en diversas reacciones químicas. Aquí están sus principales funciones:""")
    st.image("https://www.mismumi.com/wp-content/uploads/histidina-aminoacido-funcion-336x205.jpg")
    st.write("""1. Regulación del pH 
@@ -65,8 +61,6 @@ En el metabolismo, la histidina puede ser degradada en el ciclo de los ácidos t
 
 6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
 """)
-
-    st.header("Propiedades químicas de la histidina")
     # Datos de pKa para la histidina y algunas otras proteínas
 proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
 pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
